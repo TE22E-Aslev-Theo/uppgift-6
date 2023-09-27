@@ -10,11 +10,15 @@ public class javavajaj {
 
         String[] list = text1.split(" ");     
         tbord.close();
-        System.out.println("Förnamn:" + list[0]);
+        int Ålder = Integer.parseInt(list[2]);
+        double längd = Double.parseDouble(list[3]);
+        double Vikt = Double.parseDouble(list[4]);
+
+        System.out.println("Förnamn: " + list[0]);
         System.out.println("Efternamn: "+list[1]);
-        System.out.println("Ålder: "+ list[2]);
-        System.out.println("Längd: "+ list[3]);
-        System.out.println("Vikt: " + list[4]);
+        System.out.println("Ålder: "+ Ålder);
+        System.out.println("Längd: "+ längd);
+        System.out.println("Vikt: " + Vikt);
 
    }
     
